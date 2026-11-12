@@ -1,4 +1,4 @@
-add_executable(fidokey main.c blink.c usb_descriptors.c)
+add_executable(fidokey main.c blink.c ctaphid.c usb_descriptors.c)
 target_include_directories(fidokey PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
     ${PROJECT_SOURCE_DIR}/include
