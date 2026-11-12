@@ -6,7 +6,6 @@
 
 int main(void)
 {
-    // PICO_STDIO_USB_ENABLE_TINYUSB_INIT
     stdio_init_all();
     tusb_init();
     init_led();
